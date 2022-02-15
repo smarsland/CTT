@@ -3,9 +3,9 @@ start <- Sys.time()
 
 ####SETTINGS####
 outpath <- "~/Documents/data/radio_projects/myproject" 
-my_token <- "your token here"
+my_token <- "ec28800e77b3b2ce0993c51c2bf1a62b62e8ef1f369696a0a27ea98847f8b3c1"
 db_name <- "mydb"
-myproject <- "CTT Project Name" #this is your project name on your CTT account
+myproject <- "Rat responses to landscape barriers and corridors" #this is your project name on your CTT account
 conn <- dbConnect(RPostgres::Postgres(), dbname=db_name)
 ################
 
